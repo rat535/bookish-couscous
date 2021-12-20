@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+ 
+
+
+.wrapper{
+    margin: 0 auto;
+    padding: 1%;
+
+    width: 80%;
+}
+.text-center{
+    text-align: center;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+/* css for menu */
+
+.menu{
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    list-style: none;
+    display: inline;
+    padding: 1%;
+
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6b81;
+
+}
+.menu ul li a:hover{
+    color: #ff4757;
+}
+
+/* css for main containt */
+
+.main-content{
+    
+    background-color: #f1f2f6;
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 18%;
+    margin: 1%;
+    padding: 2%;
+    background-color: white;
+    float: left;
+}
+
+/* css for footer */
+
+.footer{
+    background-color: #5352ed;
+    color: white;
+}
+
+/* for mange admin */
+
+.btn-primary{
+    background-color:#7bed9f ;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color: #2ed573;
+}
+
+.btn-delete{
+    background-color:#ff6b81 ;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-delete:hover{
+    background-color: #ff4757;
+}
+.sucsess{
+    color: rgb(63, 114, 15);
+}
+.faliure{
+    color: red;
+}
+.tbl-full{
+     width: 100%;
+}
+.tbl-30{
+    width: 30%;
+}
+
+table tr th{
+    border-bottom: 2px solid black;
+    padding: 2%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
+
+
+/* css for login */
+.login{
+      border: 1px solid gray;
+      margin: 5% auto;
+      padding: 2%;
+      width: 20%;
+}
+
